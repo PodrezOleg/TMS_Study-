@@ -18,5 +18,11 @@ print (Int8.max); (Int8.min)
 print (UInt8.max); (UInt8.min)
 print (UInt16.max); (UInt16.min)
 
-//2.1.1 КОличество символов
+//2.1.1 Количество символов
 
+let countCharacter: String = "30SecondToMars"
+let countCharacter2: String = "Concert"
+
+print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count)")
+
+var  str = \(countCharacter.count), \(countCharacter2.count)
