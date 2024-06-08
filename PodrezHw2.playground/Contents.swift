@@ -37,7 +37,7 @@ var  str = countCharacter + "  " +  countCharacter2
 //3. Написать различные выражения с приведением типа. Минимум 8 выражений.
 
 var organisation: String = "Hospital"
-var patient: [String] = ["person1", "person2", "person3"]
+var patient: [String] = ["1 person", "2 person", "3 person"]
 health = false
 var amountOfRooms: Int = 10
 var temperature: Double = 36.6
@@ -51,11 +51,28 @@ print(inquiry)
 var cash: Double = Double(doctorsSalary) + (temperature) / Double(amountOfRooms)
 print (cash)
 
-<<<<<<< Updated upstream
-// 3. Написать различные выражения с приведением типа. Минимум 8 выражений.
+var rooms: Int = amountOfRooms * Int(temperature)
+print(rooms)
 
-var  str = (countCharacter) + "  " + (countCharacter2)
+var docTemp: Float = doctorsSalary / Float(temperature)
+print(docTemp)
+
+//4. Произвести различные вычисления с математическими операторами (умножение, деление, сложение, вычитание). Выводить результат в консоль в таком виде: 3 + 2 = 5 (использовать интерполяцию строк).
 
 
-=======
->>>>>>> Stashed changes
+
+
+
+
+
+
+
+// 5. С помощью if-else необходимо вывести в консоль, ночь ли сегодня (isNight).
+
+var conditions: () = if temperature <= 38 {
+    print(health)
+}
+else {
+    print ("Cold \(organisation)")
+}
+
