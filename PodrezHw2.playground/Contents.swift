@@ -20,3 +20,14 @@ print (UInt16.max); (UInt16.min)
 
 //2.1.1 КОличество символов
 
+
+let countCharacter: String = "30SecondToMars"
+let countCharacter2: String = "Concert"
+
+print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count)")
+
+// 3. Написать различные выражения с приведением типа. Минимум 8 выражений.
+
+var  str = (countCharacter) + "  " + (countCharacter2)
+
+
