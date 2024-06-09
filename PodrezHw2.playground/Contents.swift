@@ -30,6 +30,10 @@ print ("UInt64Max = \(UInt64.max) , UInt64Min = \(UInt64.min)")
 let countCharacter: String = "30SecondsToMars"
 let countCharacter2: String = "Concert"
 
+
+print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count)")
+
+>>>>>>> Stashed changes
 print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count) в Испании")
 
 var  str = countCharacter + "  " +  countCharacter2
@@ -38,7 +42,7 @@ var  str = countCharacter + "  " +  countCharacter2
 
 var organisation: String = "Hospital"
 var patient: [String] = ["1 person", "2 person", "3 person"]
-health = false
+var health = false
 var amountOfRooms: Int = 10
 var temperature: Double = 36.6
 var doctorsSalary: Float = 1023.2345
@@ -60,14 +64,30 @@ print(docTemp)
 //4. Произвести различные вычисления с математическими операторами (умножение, деление, сложение, вычитание). Выводить результат в консоль в таком виде: 3 + 2 = 5 (использовать интерполяцию строк).
 
 
+var pp: Float = 954.84
+var uu: Int = 4
+var tt: Double = 356.84949933
+var rr: Int = 11
 
+var add  = "\(pp) + \(uu) = \(pp + Float(uu))"
+print(add)
 
+var remove = "\(uu) - \(tt) = \(Double(uu) - tt)"
+print(remove)
+>>>>>>> Stashed changes
 
+var ethernalAdd = "\(rr) * \(tt) = \(Double(rr) * tt)"
+print(ethernalAdd)
+
+var ethernalremove = "\(pp) / \(uu) = \(pp / Float(uu))"
+print(ethernalremove)
 
 
 
 
 // 5. С помощью if-else необходимо вывести в консоль, ночь ли сегодня (isNight).
+
+
 
 var conditions: () = if temperature <= 38 {
     print(health)
