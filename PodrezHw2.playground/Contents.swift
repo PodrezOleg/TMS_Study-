@@ -161,7 +161,7 @@ for bbppeeyy in text{
     print(bbppeeyy)
         if bbppeeyy == "b" {break}; print("Да")
     }
-
+//не совсем понятен результат мне и задача(
 
 
 //10. Вывести таблицу умножения в консоль с помощью циклов for in.
