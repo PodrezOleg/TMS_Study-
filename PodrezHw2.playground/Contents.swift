@@ -24,7 +24,8 @@ print ("UInt16Max = \(UInt16.max) , UInt16Min = \(UInt16.min)")
 print ("UInt32Max = \(UInt32.max) , UInt32Min = \(UInt32.min)")
 print ("UInt64Max = \(UInt64.max) , UInt64Min = \(UInt64.min)")
 
-//2.1.1 КОличество символов
+//2.1.1 Количество символов
+
 
 
 let countCharacter: String = "30SecondsToMars"
@@ -33,8 +34,13 @@ let countCharacter2: String = "Concert"
 
 print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count)")
 
->>>>>>> Stashed changes
-print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count) в Испании")
+
+let countCharacter: String = "30SecondToMars"
+let countCharacter2: String = "Concert"
+
+
+
+print("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count) в Испании")
 
 var  str = countCharacter + "  " +  countCharacter2
 
@@ -42,6 +48,7 @@ var  str = countCharacter + "  " +  countCharacter2
 
 var organisation: String = "Hospital"
 var patient: [String] = ["1 person", "2 person", "3 person"]
+
 var health = false
 var amountOfRooms: Int = 10
 var temperature: Double = 36.6
@@ -64,6 +71,7 @@ print(docTemp)
 //4. Произвести различные вычисления с математическими операторами (умножение, деление, сложение, вычитание). Выводить результат в консоль в таком виде: 3 + 2 = 5 (использовать интерполяцию строк).
 
 
+
 var pp: Float = 954.84
 var uu: Int = 4
 var tt: Double = 356.84949933
@@ -74,13 +82,25 @@ print(add)
 
 var remove = "\(uu) - \(tt) = \(Double(uu) - tt)"
 print(remove)
->>>>>>> Stashed changes
 
 var ethernalAdd = "\(rr) * \(tt) = \(Double(rr) * tt)"
 print(ethernalAdd)
 
 var ethernalremove = "\(pp) / \(uu) = \(pp / Float(uu))"
 print(ethernalremove)
+
+var pp: Int = 3
+var uu: Int = 4
+var tt: Float = 93.3
+var rr: Double = 93.19948823
+
+var add  = "\(pp) + \(uu) = \(pp + uu)"
+print(add)
+
+var remove: Int = "\(Float(uu)) - \(tt) = \(Float(uu) - tt)"
+print(remove)
+
+
 
 
 
@@ -89,10 +109,15 @@ print(ethernalremove)
 
 
 
+
+
+// еще отголоски от 3 задания
+
 var conditions: () = if temperature <= 38 {
     print(health)
 }
 else {
     print ("Cold \(organisation)")
 }
+
 
