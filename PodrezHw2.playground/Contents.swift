@@ -8,7 +8,7 @@ var greeting = "Hello, playground"
 var x: Int = 14062024
 let xx: Float  = 2.123455
 var xyx: Double = 4.599398530958930
-var health: Bool = false
+var health: Bool = true
 var yyy: String = "Mars"
 
 //2.1 У чисел вывести их минимальные и максимальные значения (Int8/16…UInt…), а у строки – количество символов.
@@ -82,16 +82,79 @@ print(ethernalremove)
 // 5. С помощью if-else необходимо вывести в консоль, ночь ли сегодня (isNight).
 
 
+let currentHour = 24
 
+let stratNight = 24
+let endNight = 06
+
+
+var isNight: Bool
+if currentHour >= stratNight || currentHour < endNight {
+    isNight = true
+}
+else {
+    isNight = false
+}
+print ("isNight: \(isNight)")
 
 
 // еще отголоски от 3 задания
 
-var conditions: () = if temperature <= 38 {
-    print(health)
+var conditions: () = if temperature <= 40 {
+    print("Is hot \(health)")
 }
 else {
-    print ("Cold \(organisation)")
+    print ("It is Cold in \(organisation)")
 }
 
+
+//6. Дана строка, сделать копию этой строки. Вывести копию строки в консоль. Помним,что строка – это коллекция символов, по которым можно "пробегаться". Решение let str2 = str1; print(str2) не принимается.
+
+let str1 = "coffe"
+var str2 = ""
+
+for characet in str1 {
+    str2.append(characet)
+    
+    print("Напиток \(str2)")
+}
+// 7.Сделать проверку: является ли число четным: 13, 2, 20, 21, 76.
+
+let birthaday = [12, 2, 20, 21, 76]
+for number in birthaday {
+    if number % 2 == 1 {
+        print ("День рождение, \(number) нечетного числа")
+    }
+    else {
+        print ("День рождение, \(number) четного числа")
+    }
+}
+//67 дня по знаку зодиака дракон )))
+
+
+//8. В переменной day лежит какое-то число от 1 до 31 (вы задаете сами любое). Определить, в какую декаду месяца попадает это число (в первую, вторую или третью).
+
+var decade1 = 1...10
+var decade2 = 11...20
+var decade3 = 21...30
+
+var day = 15
+
+switch day {
+case decade1:
+    print("1 декада месяца")
+case decade2:
+    print("2 декада месяца")
+case decade3:
+    print("3 декада месяца")
+default:
+    print("введите день")
+}
+    
+//9*. Дана строка, состоящая из символов, например, “bbppeeyy”
+//    . Проверить, что первым символом этой строки является буква “a” (или любая            другая).
+//      Если это так –
+//    вывести 'да', в противном случае -
+//    ‘нет’
+//  Затем поменяйте строку, чтобы условие соблюдалось. Поэкспериментируйте с разными строками.
 
