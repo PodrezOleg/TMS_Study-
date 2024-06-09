@@ -1,4 +1,4 @@
-import Cocoa
+import SwiftUI
 //1. Создать новый Playground
 
 var greeting = "Hello, playground"
@@ -31,15 +31,6 @@ print ("UInt64Max = \(UInt64.max) , UInt64Min = \(UInt64.min)")
 let countCharacter: String = "30SecondsToMars"
 let countCharacter2: String = "Concert"
 
-
-print ("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count)")
-
-
-let countCharacter: String = "30SecondToMars"
-let countCharacter2: String = "Concert"
-
-
-
 print("Напиши количество символов \(countCharacter.count) и \(countCharacter2.count) в Испании")
 
 var  str = countCharacter + "  " +  countCharacter2
@@ -48,8 +39,6 @@ var  str = countCharacter + "  " +  countCharacter2
 
 var organisation: String = "Hospital"
 var patient: [String] = ["1 person", "2 person", "3 person"]
-
-var health = false
 var amountOfRooms: Int = 10
 var temperature: Double = 36.6
 var doctorsSalary: Float = 1023.2345
@@ -88,21 +77,6 @@ print(ethernalAdd)
 
 var ethernalremove = "\(pp) / \(uu) = \(pp / Float(uu))"
 print(ethernalremove)
-
-var pp: Int = 3
-var uu: Int = 4
-var tt: Float = 93.3
-var rr: Double = 93.19948823
-
-var add  = "\(pp) + \(uu) = \(pp + uu)"
-print(add)
-
-var remove: Int = "\(Float(uu)) - \(tt) = \(Float(uu) - tt)"
-print(remove)
-
-
-
-
 
 
 // 5. С помощью if-else необходимо вывести в консоль, ночь ли сегодня (isNight).
